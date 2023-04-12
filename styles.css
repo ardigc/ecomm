@@ -16,7 +16,10 @@
     width: 100%;
     z-index: 1000000;
 }
-
+.button-position{
+    position: absolute;
+    right: 10rem;
+}
 .products-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,16 +29,99 @@ main{
     margin-top: 7rem;
 }
 .product-box{
-    background-color: rgb(153, 119, 184);
+    background-color: rgb(165, 119, 184);
     min-height: 6rem;
+    border: solid 1px black;
+    
 }
 .product-name{
+    display: flex;
     height: 1rem;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
     background-color: beige;
+}
+
+.description-box{
+    background-color: rgb(165, 119, 184);
+    padding: 1rem;
+}
+.price-box{
+    display: flex;
+    background-color: rgb(165, 119, 184);
+    justify-content: end;
+    padding: 1rem;
+
+}
+.button-box{
+    display: flex;
+    bottom: 0;
+    justify-content: end;
+    padding: 1rem;
+}
+.buy-button{
+    border-radius: 10px;
 }
 /* .prueba-diseño{
     width: 100%;
     min-height: 7rem;
     padding: 1rem;
 } */
+.carrito{
+    position: fixed;
+    display: grid;
+    background-color: beige;
+    grid-template-rows: repeat(22, 2.52rem);
+    height: 100%;
+    left: 0;
+    top: 7rem;
+    align-items: top;
+    overflow: hidden;
+    border: solid 1px black;
+}
+.item-box{
+    min-width: 5rem;
+    height: 100%;
+    background-color: beige;
+    border: solid 1px black;
+}
+.total-price{
+    display: flex;
+    min-width: 5rem;
+    height: 100%;
+    background-color: rgb(182, 182, 161);
+    border: solid 1px black;
+    justify-content: end;
+    align-items: end;
+}
+.fuera{
+    
+    width: 0px;
+    z-index: 1;
+}
+.show{
+    width: 20rem;
+}
+.item-name{
+    display: flex;
+    /* height: 2rem; */
+    padding-top: 1px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.item-price{
+    background-color: beige;
+    display: flex;
+    color: black;
+    justify-content: end;
+    /* padding: 1.5rem; */
+    
+}
+.item-description{
+    background-color: rgb(165, 119, 184);
+    padding: 1rem;
+}
