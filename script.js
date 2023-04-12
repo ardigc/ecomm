@@ -107,22 +107,38 @@ const products = [
 // en cada producto, añadir botón mostrar carrito que abra un drawer (ver MUI) y en el carrito mostrar
 // precio total, y cada elemento en el carrito con su precio individual.
 
-const productBox =document.querySelector(".product-box");
+// const productBox =document.querySelector(".product-box");
 const productsGrid = document.querySelector(".products-grid");
 
 function createElement(tag, styles, content) {
   const element=document.createElement(tag);
   element.setAttribute("class", styles);
-  element.append(content)
+  if (Array.isArray(content)) {
+    element.append(...content)
+  } else {
+    element.append(content)
+  }
   return element;
 }
-const mapa = products.map((ev)=>{
+
+function createProduct(product){
   // let int = [ev.name, ev.price, ev.description];
   // console.log(int);
-  const nameBox = createElement ("div", "product-name", ev.name);
+  const div = createElement("div");
+  const dibujito = createElement("div");
+  const nameBox = createElement("div", "product-name",[div, dibujito]);
+  // crear priceBox
+  // crear descriptionBox
+  // crear buttonBox
+  const buttonBox = createElement("button", "")
+  const productBox = createElement("div", "product-box","la caja");
   productBox.append(nameBox)
-  return createElement("div", "product-box","la caja");
-});
+  // append priceBox
+  return productBox;
+}
+
+const mapa = products.map(createProduct);
 
 
 productsGrid.append(...mapa);
+
