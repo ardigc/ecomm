@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+.header{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(79, 118, 136);
+    position: fixed;
+    top: 0;
+    height: 7rem;
+    color: white;
+    width: 100%;
+    z-index: 1000000;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(119, 182, 211);
+}
+main{
+    margin-top: 7rem;
+}
+.product-box{
+    background-color: rgb(153, 119, 184);
+    min-height: 6rem;
+}
+.product-name{
+    height: 1rem;
+    width: 100%;
+    background-color: beige;
+}
+/* .prueba-diseño{
+    width: 100%;
+    min-height: 7rem;
+    padding: 1rem;
+} */

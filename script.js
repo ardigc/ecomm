@@ -106,3 +106,23 @@ const products = [
 // Objetivo: crear página de e-commerce -> Mostrar todos los productos, añadir botón de añadir al carrito
 // en cada producto, añadir botón mostrar carrito que abra un drawer (ver MUI) y en el carrito mostrar
 // precio total, y cada elemento en el carrito con su precio individual.
+
+const productBox =document.querySelector(".product-box");
+const productsGrid = document.querySelector(".products-grid");
+
+function createElement(tag, styles, content) {
+  const element=document.createElement(tag);
+  element.setAttribute("class", styles);
+  element.append(content)
+  return element;
+}
+const mapa = products.map((ev)=>{
+  // let int = [ev.name, ev.price, ev.description];
+  // console.log(int);
+  const nameBox = createElement ("div", "product-name", ev.name);
+  productBox.append(nameBox)
+  return createElement("div", "product-box","la caja");
+});
+
+
+productsGrid.append(...mapa);
