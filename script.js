@@ -201,6 +201,7 @@ function renderizarCarro(carro) {
   // console.log(totalPrice)
   showCarrito.append(createElement("div", "total-price", "Total price is "+totalPrice+"€"));
 }
+
 function createProduct(product){
   let contcicles = 0;
   // let int = [ev.name, ev.price, ev.description];
@@ -222,7 +223,6 @@ function createProduct(product){
   productBox.append(buttonBox);
  button.addEventListener("click",(ev)=>{
   showCarrito.innerHTML= " ";
-  // const ident = carrito.ide.find((element) => element === product.ide);
 if (contcicles===0) {
   contcicles++
   carrito.push(product);
@@ -233,17 +233,25 @@ if (contcicles===0) {
         carrito[index].qt++;
   } else {
     carrito.push(product);
-  }
-  console.log(carrito)
-}
-console.log(carrito);
+  }}
   renderizarCarro(carrito);
 // 
 // Intentar ventana emergente con setTimeOut
-// 
-// 
-  // console.log(carrito);
+
+button.append(createElement("div", "feedback-window", "Se añadio al carrito correctamente"));
+
+var aparecer ;
+const popup = document.querySelector(".feedback-window");
+aparecer = setTimeout(() => {
+    
+    popup.style.display="none";
+  }, 500); 
+if (popup.style.display === "none") {
+  clearTimeout(aparecer);
+}
+  
 });
+
 return productBox;
 }
 
