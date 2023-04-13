@@ -2,146 +2,162 @@
 
 const products = [
   {
-    name: 'Oriental Concrete Gloves',
-    price: '374.00',
-    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
+    name: "Oriental Concrete Gloves",
+    price: "374.00",
+    description:
+      "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
     qt: 1,
-    ide: 1
+    ide: 1,
   },
   {
-    name: 'Refined Metal Towels',
-    price: '614.00',
-    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
+    name: "Refined Metal Towels",
+    price: "614.00",
+    description:
+      "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
     qt: 1,
-    ide: 2
+    ide: 2,
   },
   {
-    name: 'Bespoke Cotton Bacon',
-    price: '811.00',
-    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
+    name: "Bespoke Cotton Bacon",
+    price: "811.00",
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
     qt: 1,
-    ide: 3
+    ide: 3,
   },
   {
-    name: 'Licensed Rubber Pants',
-    price: '524.00',
-    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
+    name: "Licensed Rubber Pants",
+    price: "524.00",
+    description:
+      "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     qt: 1,
-    ide: 4
+    ide: 4,
   },
   {
-    name: 'Unbranded Fresh Cheese',
-    price: '186.00',
-    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
+    name: "Unbranded Fresh Cheese",
+    price: "186.00",
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
     qt: 1,
-    ide: 5
+    ide: 5,
   },
   {
-    name: 'Tasty Concrete Bacon',
-    price: '40.00',
-    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
+    name: "Tasty Concrete Bacon",
+    price: "40.00",
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     qt: 1,
-    ide: 6
+    ide: 6,
   },
   {
-    name: 'Oriental Concrete Soap',
-    price: '882.00',
-    description: 'The Football Is Good For Training And Recreational Purposes',
+    name: "Oriental Concrete Soap",
+    price: "882.00",
+    description: "The Football Is Good For Training And Recreational Purposes",
     qt: 1,
-    ide: 7
+    ide: 7,
   },
   {
-    name: 'Recycled Fresh Gloves',
-    price: '307.00',
-    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
+    name: "Recycled Fresh Gloves",
+    price: "307.00",
+    description:
+      "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
     qt: 1,
-    ide: 8
+    ide: 8,
   },
   {
-    name: 'Fantastic Bronze Pants',
-    price: '182.00',
-    description: 'The Football Is Good For Training And Recreational Purposes',
+    name: "Fantastic Bronze Pants",
+    price: "182.00",
+    description: "The Football Is Good For Training And Recreational Purposes",
     qt: 1,
-    ide: 9
+    ide: 9,
   },
   {
-    name: 'Rustic Steel Hat',
-    price: '267.00',
-    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+    name: "Rustic Steel Hat",
+    price: "267.00",
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     qt: 1,
-    ide: 11
+    ide: 11,
   },
   {
-    name: 'Rustic Soft Chips',
-    price: '553.00',
-    description: 'The Football Is Good For Training And Recreational Purposes',
+    name: "Rustic Soft Chips",
+    price: "553.00",
+    description: "The Football Is Good For Training And Recreational Purposes",
     qt: 1,
-    ide: 12
+    ide: 12,
   },
   {
-    name: 'Small Soft Computer',
-    price: '151.00',
-    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
+    name: "Small Soft Computer",
+    price: "151.00",
+    description:
+      "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
     qt: 1,
-    ide: 13
+    ide: 13,
   },
   {
-    name: 'Rustic Bronze Towels',
-    price: '133.00',
-    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+    name: "Rustic Bronze Towels",
+    price: "133.00",
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     qt: 1,
-    ide: 14
+    ide: 14,
   },
   {
-    name: 'Rustic Wooden Bacon',
-    price: '264.00',
-    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
+    name: "Rustic Wooden Bacon",
+    price: "264.00",
+    description:
+      "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
     qt: 1,
-    ide: 15
+    ide: 15,
   },
   {
-    name: 'Oriental Wooden Salad',
-    price: '108.00',
-    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',
+    name: "Oriental Wooden Salad",
+    price: "108.00",
+    description:
+      "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
     qt: 1,
-    ide: 16
+    ide: 16,
   },
   {
-    name: 'Luxurious Steel Pants',
-    price: '680.00',
-    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
+    name: "Luxurious Steel Pants",
+    price: "680.00",
+    description:
+      "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
     qt: 1,
-    ide: 17
+    ide: 17,
   },
   {
-    name: 'Oriental Concrete Computer',
-    price: '254.00',
-    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',
+    name: "Oriental Concrete Computer",
+    price: "254.00",
+    description:
+      "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
     qt: 1,
-    ide: 18
+    ide: 18,
   },
   {
-    name: 'Unbranded Metal Shirt',
-    price: '703.00',
-    description: 'The Football Is Good For Training And Recreational Purposes',
+    name: "Unbranded Metal Shirt",
+    price: "703.00",
+    description: "The Football Is Good For Training And Recreational Purposes",
     qt: 1,
-    ide: 19
+    ide: 19,
   },
   {
-    name: 'Luxurious Granite Mouse',
-    price: '255.00',
-    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
+    name: "Luxurious Granite Mouse",
+    price: "255.00",
+    description:
+      "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
     qt: 1,
-    ide: 20
+    ide: 20,
   },
   {
-    name: 'Incredible Rubber Salad',
-    price: '589.00',
-    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
+    name: "Incredible Rubber Salad",
+    price: "589.00",
+    description:
+      "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
     qt: 1,
-    ide: 21
-  }
-]
+    ide: 21,
+  },
+];
 
 // Objetivo: crear página de e-commerce -> Mostrar todos los productos, añadir botón de añadir al carrito
 // en cada producto, añadir botón mostrar carrito que abra un drawer (ver MUI) y en el carrito mostrar
@@ -150,114 +166,158 @@ const products = [
 // const productBox =document.querySelector(".product-box");
 const productsGrid = document.querySelector(".products-grid");
 const carrito = [];
-const showCarrito = document.querySelector(".carrito")
-
+const showCarrito = document.querySelector(".carrito");
 
 function createElement(tag, styles, content) {
-  const element=document.createElement(tag);
+  const element = document.createElement(tag);
   element.setAttribute("class", styles);
   if (!!content === false) {
-    
   } else {
     if (Array.isArray(content)) {
-      element.append(...content)
+      element.append(...content);
     } else {
-      element.append(content)
+      element.append(content);
     }
-  } 
+  }
   return element;
 }
 const buttonCarrito = document.querySelector(".button-position");
 
-buttonCarrito.addEventListener("click", (ev) =>{
+buttonCarrito.addEventListener("click", (ev) => {
   if (showCarrito.className.includes("fuera")) {
-    showCarrito.setAttribute("class","carrito show")
+    showCarrito.setAttribute("class", "carrito show");
   } else {
-    showCarrito.setAttribute("class","carrito fuera")  
+    showCarrito.setAttribute("class", "carrito fuera");
   }
-})
+});
 
 function createItem(item) {
-  // console.log(item);  
-  const nameBox = createElement("div", "item-name",item.name);
+  // console.log(item);
+  const nameBox = createElement("div", "item-name", item.name);
   // const descriptionBox = createElement("div", "item-description", item.description)
-  const priceBox = createElement("div", "item-price","Unidades "+item.qt+"   "+item.price+"€");
-  const itemBox = createElement("div", "item-box",)
-  itemBox.append(nameBox)
+  const priceBox = createElement(
+    "div",
+    "item-price",
+    "Unidades " + item.qt + "   " + item.price + "€"
+  );
+  const itemBox = createElement("div", "item-box");
+  itemBox.append(nameBox);
   // itemBox.append(descriptionBox);
   itemBox.append(priceBox);
   // console.log()
-  return itemBox
+  return itemBox;
 }
 function renderizarCarro(carro) {
   const carritoList = carrito.map(createItem);
-  showCarrito.append(...carritoList)
+  showCarrito.append(...carritoList);
   let totalPrice = 0;
-  for (let x = 0; x < carrito.length; x++) 
-  {
+  for (let x = 0; x < carrito.length; x++) {
     const currentPrice = parseFloat(carrito[x].price);
-    totalPrice = totalPrice + (currentPrice*carrito [x].qt); 
+    totalPrice = totalPrice + currentPrice * carrito[x].qt;
   }
   // console.log(totalPrice)
-  showCarrito.append(createElement("div", "total-price", "Total price is "+totalPrice+"€"));
+  showCarrito.append(
+    createElement("div", "total-price", "Total price is " + totalPrice + "€")
+  );
 }
 
-function createProduct(product){
+function createProduct(product) {
   let contcicles = 0;
   // let int = [ev.name, ev.price, ev.description];
   // console.log(int);
   // const div = createElement("div");
   // const dibujito = createElement("div");
-  const nameBox = createElement("div", "product-name",product.name);
+  const nameBox = createElement("div", "product-name", product.name);
   // crear descriptionBox
-  const descriptionBox = createElement("div", "description-box", product.description)
+  const descriptionBox = createElement(
+    "div",
+    "description-box",
+    product.description
+  );
   // crear priceBox
-  const priceBox = createElement("div", "price-box", product.price+"€");
+  const priceBox = createElement("div", "price-box", product.price + "€");
   // crear buttonBox
   const button = createElement("button", "buy-button", "comprar");
   const buttonBox = createElement("div", "button-box", button);
-  const productBox = createElement("div", "product-box",);
-  productBox.append(nameBox)
+  const productBox = createElement("div", "product-box");
+  productBox.append(nameBox);
   productBox.append(descriptionBox);
   productBox.append(priceBox);
   productBox.append(buttonBox);
- button.addEventListener("click",(ev)=>{
-  showCarrito.innerHTML= " ";
-if (contcicles===0) {
-  contcicles++
-  carrito.push(product);
-} else {
-  ident = carrito.find((element) => element.ide === product.ide);
-  index = carrito.findIndex((element) => element.ide === product.ide);
-  if (product.ide===ident.ide) {
+  let timeout = null;
+  button.addEventListener("click", (ev) => {
+    showCarrito.innerHTML = " ";
+    if (contcicles === 0) {
+      contcicles++;
+      carrito.push(product);
+    } else {
+      const ident = carrito.find((element) => element.ide === product.ide);
+      const index = carrito.findIndex((element) => element.ide === product.ide);
+      if (product.ide === ident.ide) {
         carrito[index].qt++;
-  } else {
-    carrito.push(product);
-  }}
-  renderizarCarro(carrito);
-// 
-// Intentar ventana emergente con setTimeOut
+      } else {
+        carrito.push(product);
+      }
+    }
+    renderizarCarro(carrito);
+    //
+    // Intentar ventana emergente con setTimeOut
 
-button.append(createElement("div", "feedback-window", "Se añadio al carrito correctamente"));
+    // Nota Juan: Caca
+    // Si creamos el elemento, ya lo tenemos, no hace falta query selector
+    // Ademas query selector retorna el primero, si hay varios no sabemos si es el que
+    // nos interesa
 
-var aparecer ;
-const popup = document.querySelector(".feedback-window");
-aparecer = setTimeout(() => {
-    
-    popup.style.display="none";
-  }, 500); 
-if (popup.style.display === "none") {
-  clearTimeout(aparecer);
-}
-  
-});
+    // button.append(
+    //   createElement(
+    //     "div",
+    //     "feedback-window",
+    //     "Se añadio al carrito correctamente"
+    //   )
+    // );
 
-return productBox;
+    // var aparecer;
+    // const popup = document.querySelector(".feedback-window");
+    // aparecer = setTimeout(() => {
+    //   popup.style.display = "none";
+    // }, 500);
+    // if (popup.style.display === "none") {
+    //   clearTimeout(aparecer);
+    // }
+
+    if (!timeout) {
+      const feedbackWindow = createElement(
+        "div",
+        "feedback-window",
+        "Se añadio al carrito correctamente"
+      );
+      button.append(feedbackWindow);
+
+      timeout = setTimeout(() => {
+        // Siempre accedemos al que acabamos de crear
+        // feedbackWindow.style.display = "none";
+        // Para eliminar: remove child te permite eliminar un elemento que tienes
+        // en js -> feedbackWindow
+        button.removeChild(feedbackWindow);
+        timeout = null;
+      }, 500);
+    }
+  });
+
+  return productBox;
 }
 
 const mapa = products.map(createProduct);
 
 productsGrid.append(...mapa);
 
+// console.log(carrito);
 
+// document.querySelector(".go-checkout").addEventListener("click", () => {
+//   const items = carrito.map((prod) => ({ id: prod.ide, qt: prod.qt }));
+//   window.location.assign(`/checkout.html?carrito=${JSON.stringify(items)}`);
+// });
 
+// console.log(JSON.parse(new URLSearchParams(window.location.search).get("carrito")))
+
+console.log(window.location.pathname)

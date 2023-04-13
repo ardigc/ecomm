@@ -96,6 +96,7 @@ main{
     align-items: top;
     overflow: hidden;
     border: solid 1px black;
+    z-index: 1;
 }
 .item-box{
     min-width: 5rem;
